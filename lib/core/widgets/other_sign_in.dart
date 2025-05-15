@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bounceable/flutter_bounceable.dart';
-import 'package:plant_shop/core/assets.dart';
-import 'package:plant_shop/core/colors.dart';
-import 'package:plant_shop/core/dimens.dart';
-import 'package:plant_shop/core/text_style.dart';
+
+import '../constants/constants.dart';
 
 class OtherSignIn extends StatelessWidget {
   const OtherSignIn({super.key});

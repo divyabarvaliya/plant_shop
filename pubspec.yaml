@@ -32,6 +32,8 @@ dependencies:
     sdk: flutter
   flutter_staggered_animations: ^1.1.1
   flutter_bounceable: ^1.2.0
+  get: ^4.7.2
+  flutter_card_swiper: ^7.0.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -85,6 +87,18 @@ flutter:
          - asset: assets/fonts/Manrope-Medium.ttf
            weight: 500
          - asset: assets/fonts/Manrope-Regular.ttf
+           weight: 400
+     - family: Satoshi
+       fonts:
+         - asset: assets/fonts/Satoshi-Black.otf
+           weight: 900
+         - asset: assets/fonts/Satoshi-Bold.otf
+           weight: 700
+         - asset: assets/fonts/Satoshi-Light.otf
+           weight: 300
+         - asset: assets/fonts/Satoshi-Medium.otf
+           weight: 500
+         - asset: assets/fonts/Satoshi-Regular.otf
            weight: 400
 
   # For details regarding fonts from package dependencies,

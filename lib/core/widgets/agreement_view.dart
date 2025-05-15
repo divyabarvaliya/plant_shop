@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:plant_shop/core/colors.dart';
-import 'package:plant_shop/core/text_style.dart';
+
+import '../constants/constants.dart';
 
 class AgreementView extends StatelessWidget {
   const AgreementView({super.key});

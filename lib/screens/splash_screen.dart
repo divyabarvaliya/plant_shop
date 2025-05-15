@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:plant_shop/core/assets.dart';
-import 'package:plant_shop/core/dimens.dart';
+import 'package:plant_shop/core/constants/assets.dart';
+import 'package:plant_shop/core/constants/dimens.dart';
 import 'package:plant_shop/screens/sign_in__screen.dart';
 
 class SplashScreen extends StatefulWidget {

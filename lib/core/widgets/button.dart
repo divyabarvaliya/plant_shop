@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:plant_shop/core/colors.dart';
-import 'package:plant_shop/core/dimens.dart';
-import 'package:plant_shop/core/text_style.dart';
+
+import '../constants/constants.dart';
 
 class Button extends StatelessWidget {
   const Button({super.key, required this.btnTxt});

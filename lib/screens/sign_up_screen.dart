@@ -1,16 +1,16 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bounceable/flutter_bounceable.dart';
-import 'package:plant_shop/core/assets.dart';
-import 'package:plant_shop/core/colors.dart';
-import 'package:plant_shop/core/dimens.dart';
-import 'package:plant_shop/core/text_style.dart';
-import 'package:plant_shop/core/widget/agreement_view.dart';
-import 'package:plant_shop/core/widget/button.dart';
-import 'package:plant_shop/core/widget/entry_list_item.dart';
-import 'package:plant_shop/core/widget/other_sign_in.dart';
-import 'package:plant_shop/core/widget/text_field.dart';
+import 'package:get/get.dart';
+import 'package:plant_shop/core/widgets/agreement_view.dart';
+import 'package:plant_shop/core/widgets/button.dart';
+import 'package:plant_shop/core/widgets/entry_list_item.dart';
+import 'package:plant_shop/core/widgets/other_sign_in.dart';
+import 'package:plant_shop/core/widgets/text_field.dart';
+import 'package:plant_shop/screens/home_screen.dart';
 import 'package:plant_shop/screens/sign_in__screen.dart';
+
+import '../core/constants/constants.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -227,7 +227,12 @@ class _SignUpScreenState extends State<SignUpScreen> {
             padding: EdgeInsets.only(bottom: Dimens.verticalBlockSize * 2),
             child: EntryListItem(
               index: 9,
-              child: Bounceable(onTap: () {}, child: Button(btnTxt: 'Sign up')),
+              child: Bounceable(
+                onTap: () {
+                  Get.to(() => HomeScreen());
+                },
+                child: Button(btnTxt: 'Sign up'),
+              ),
             ),
           ),
         ],

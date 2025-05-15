@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plant_shop/core/font_family.dart';
+import 'package:plant_shop/core/constants/font_family.dart';
 
 import 'dimens.dart';
 
@@ -38,8 +38,18 @@ class AppTextStyle {
     14: regular.copyWith(fontSize: Dimens.s_14()),
     15: regular.copyWith(fontSize: Dimens.s_15()),
     16: regular.copyWith(fontSize: Dimens.s_16()),
+    17: regular.copyWith(fontSize: Dimens.s_17()),
+    18: regular.copyWith(fontSize: Dimens.s_18()),
     20: regular.copyWith(fontSize: Dimens.s_20()),
     24: regular.copyWith(fontSize: Dimens.s_24()),
     25: regular.copyWith(fontSize: Dimens.s_25()),
+    30: regular.copyWith(fontSize: Dimens.s_30()),
+    45: regular.copyWith(fontSize: Dimens.s_45()),
+    50: regular.copyWith(fontSize: Dimens.s_50()),
+    55: regular.copyWith(fontSize: Dimens.s_55()),
+    60: regular.copyWith(fontSize: Dimens.s_60()),
+    70: regular.copyWith(fontSize: Dimens.s_70()),
+    80: regular.copyWith(fontSize: Dimens.s_80()),
+    90: regular.copyWith(fontSize: Dimens.s_90()),
   };
 }

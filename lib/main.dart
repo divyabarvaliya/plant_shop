@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:plant_shop/controller/auth_ctrl.dart';
-import 'package:plant_shop/controller/main_controller.dart';
+import 'package:plant_shop/core/controller/auth_ctrl.dart';
+import 'package:plant_shop/core/controller/main_controller.dart';
 
 import 'screens/splash_screen.dart';
 

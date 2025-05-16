@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bounceable/flutter_bounceable.dart';
 import 'package:get/get.dart';
+import 'package:plant_shop/core/utils/snackbar.dart';
 import 'package:plant_shop/core/widgets/agreement_view.dart';
 import 'package:plant_shop/core/widgets/button.dart';
 import 'package:plant_shop/core/widgets/entry_list_item.dart';
@@ -206,7 +207,15 @@ class _SignInScreenState extends State<SignInScreen> {
               index: 8,
               child: Bounceable(
                 onTap: () {
-                  Get.to(() => HomeScreen());
+                  if (emailCtrl.text.isEmpty) {
+                    SnackBarUtil.showToasts(
+                      message: 'Please Enter Email Address',
+                    );
+                  } else if (pwdCtrl.text.isEmpty) {
+                    SnackBarUtil.showToasts(message: 'Please Enter Password');
+                  } else {
+                    Get.to(() => HomeScreen());
+                  }
                 },
                 child: Button(btnTxt: 'Sign in'),
               ),

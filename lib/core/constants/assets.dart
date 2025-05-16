@@ -9,6 +9,8 @@ class ImagesAsset {
   static const String homeBac1 = '$images/home_bac_1.png';
   static const String homeBac2 = '$images/home_bac_2.png';
   static const String plantsBc = '$images/plants.png';
+  static const String cartBc = '$images/cart_bc.png';
+  static const String paymentBc = '$images/payment_bc.png';
 }
 
 class IconsAsset {
